@@ -4,23 +4,19 @@ import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 
 const SearchBar = () => {
- 
-   const [searchTerm, setsearchTerm] = useState('');
+  const [searchTerm, setsearchTerm] = useState("");
 
-   const navigate = useNavigate();
+  const navigate = useNavigate();
 
-   const handleSubmit = (e) =>{
-   e.preventDefault();
+  const handleSubmit = (e) => {
+    e.preventDefault();
 
-   if(searchTerm) {
-    navigate(`/search/${searchTerm}`);
+    if (searchTerm) {
+      navigate(`/search/${searchTerm}`);
 
-    setsearchTerm('');
-   }
-
-
-
-   }
+      setsearchTerm("");
+    }
+  };
   return (
     <Paper
       component="form"
