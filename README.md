@@ -4,7 +4,7 @@ Youtube clone is a web application created with React and styled using MaterialU
 
 ## Live Demo
 
-Experience Youtube clone live at the following link: [Youtube clone Live Demo](https://un-shot.vercel.app)
+Experience Youtube clone live at the following link: [Youtube clone Live Demo](https://youtube-clo.vercel.app)
 
 Feel free to explore and provide feedback!
 
@@ -13,6 +13,7 @@ Feel free to explore and provide feedback!
 
 ![Screenshot 1](/screenshots/Img1.png)
 ![Screenshot 2](/screenshots/Img2.png)
+![Screenshot 2](/screenshots/Img3.png)
 
 
 
